@@ -74,7 +74,7 @@
   </tr>
   <tr>
     <td><img src="./screenshots/light-mode.png" alt="Light Mode" width="400"/></td>
-    <td><img src="./screenshots/dark-mode.png" alt="Dark Mode" width="400"/></td>
+    <td><img src="https://github.com/Fahad12405/fahadalamportfolio/blob/main/Capture.PNG" alt="Dark Mode" width="400"/></td>
   </tr>
 </table>
 
