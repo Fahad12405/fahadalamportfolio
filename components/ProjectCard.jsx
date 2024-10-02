@@ -1,66 +1,90 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import tour from "@/public/work/tour.jpeg";
-import realstate from "@/public/work/RealState.png";
-import ecommerce from "@/public/work/ecommerce.PNG";
-
-
-import foodpanda from "@/public/work/foodpanda.png";
-import certificate from "@/public/work/certificateportal.PNG";
-import gitfinder from "@/public/work/gitfinder.png";
+import aizen from "@/public/work/aizen.jpg";
+import kamui from "@/public/work/kamui.jpg";
+import pokedex from "@/public/work/pokedex.jpg";
+import portfolio from "@/public/work/portfolio.jpg";
+import cryptohunter from "@/public/work/crypto-hunter.jpg";
+import redeye from "@/public/work/red-eye.jpg";
+import evo from "@/public/work/evo.jpg";
+import notion from "@/public/work/notion.jpg";
+import nike from "@/public/work/nike.jpg";
 
 const ProjectCard = () => {
   const data = [
     {
       id: 1,
-      image: tour,
-      title: "Tourism Website",
-      description: "A tourism website that inspires and guides travelers with destination highlights, attractions, and easy booking options for unforgettable journeys.",
-      link: "https://moroccotour.vercel.app/",
+      image: aizen,
+      title: "Aizen",
+      description: "Create beautiful images and gifs of your source code",
+      link: "https://aizen.netlify.app/",
       target: "_self",
     },
     {
       id: 2,
-      image: realstate,
-      title: "RealState",
-      description: "A real estate website offering comprehensive property listings, detailed information, and easy search options to help users find their perfect home ",
-      link: "https://fahad12405.github.io/Real-State-website/",
+      image: kamui,
+      title: "Kamui",
+      description: "Kanban board for planner with superpowers",
+      link: "https://kamui-kanban.netlify.app/",
       target: "_self",
     },
     {
       id: 3,
-      image: ecommerce,
-      title: "E-commerce",
-      description: "An e-commerce website is a digital platform that allows users to browse, compare, and purchase a wide range of products or services online. It typically features an intuitive interface with categories and filters to help customersn",
+      image: pokedex,
+      title: "Pokedex",
+      description: "Gotta Catch'em All. Explore your Pokemon",
       link: "https://pokedex-polly.netlify.app/",
       target: "_self",
     },
     {
       id: 4,
-      image: foodpanda,
-      title: "Foodpanda Clone",
-      description: "A Foodpanda clone is an online food delivery platform that allows users to browse local restaurants, view menus, and place orders for home delivery or pickup. The clone provides a user-friendly interface",
-      link: "https://fahad12405.github.io/Foodpanda-Clone/",
+      image: evo,
+      title: "Evo Gym",
+      description: "Gym Landing Page",
+      link: "https://evogymm.netlify.app/",
       target: "_blank",
     },
     {
       id: 5,
-      image: gitfinder,
-      title: "Github Finder",
-      description: "A GitHub Finder Profile is a web application that allows users to search for GitHub profiles by username, displaying detailed information about repositories, followers, following, and contributions.",
-      link: "https://fahad12405.github.io/Git-Finder/",
+      image: nike,
+      title: "Nike Store",
+      description: "Nike Store Landing Page",
+      link: "https://nikestore-polly.netlify.app/",
       target: "_blank",
     },
     {
       id: 6,
-      image: certificate,
-      title: "Certification Portal",
-      description: "A certification portal is an online platform where users can browse, enroll in, and manage various professional certification programs. It provides detailed course descriptions, eligibility criteria, and certification pathways across different fields.",
-      link: "https://smitcertificate.vercel.app/",
+      image: notion,
+      title: "Potion",
+      description: "Connected workspace where better, faster work happens.",
+      link: "https://potion-write.vercel.app/",
       target: "_blank",
     },
-    
+    {
+      id: 7,
+      image: portfolio,
+      title: "Portfolio",
+      description: "Portfolio made using Next.js and Tailwind CSS",
+      link: "",
+      target: "",
+    },
+    {
+      id: 8,
+      image: cryptohunter,
+      title: "Crypto Hunter",
+      description: "Get the Trending Crypto list with its Price",
+      link: "https://crytocurrencyhunter.netlify.app/",
+      target: "_self",
+    },
+    {
+      id: 9,
+      image: redeye,
+      title: "Red Eye",
+      description: "Question based website to know your movie genre",
+      link: "https://red-eye.netlify.app/",
+      target: "_self",
+    },
   ];
 
   return (
