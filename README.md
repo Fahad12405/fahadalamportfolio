@@ -79,7 +79,7 @@
 </table>
 
 <h2>🌍 Live Demo</h2>
-<p>Check out the live demo <a href="https://your-portfolio-demo-link.com">here</a>!</p>
+<p>Check out the live demo <a href="https://fahadalamportfolio.vercel.app">here</a>!</p>
 
 <h2>📄 License</h2>
 <p>This project is licensed under the MIT License.</p>
