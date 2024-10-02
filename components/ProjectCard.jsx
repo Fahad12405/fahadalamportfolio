@@ -56,35 +56,12 @@ const ProjectCard = () => {
     {
       id: 6,
       image: notion,
-      title: "Potion",
-      description: "Connected workspace where better, faster work happens.",
-      link: "https://potion-write.vercel.app/",
+      title: "Certification Portal",
+      description: "A certification portal is an online platform where users can browse, enroll in, and manage various professional certification programs. It provides detailed course descriptions, eligibility criteria, and certification pathways across different fields.",
+      link: "https://smitcertificate.vercel.app/",
       target: "_blank",
     },
-    {
-      id: 7,
-      image: portfolio,
-      title: "Portfolio",
-      description: "Portfolio made using Next.js and Tailwind CSS",
-      link: "",
-      target: "",
-    },
-    {
-      id: 8,
-      image: cryptohunter,
-      title: "Crypto Hunter",
-      description: "Get the Trending Crypto list with its Price",
-      link: "https://crytocurrencyhunter.netlify.app/",
-      target: "_self",
-    },
-    {
-      id: 9,
-      image: redeye,
-      title: "Red Eye",
-      description: "Question based website to know your movie genre",
-      link: "https://red-eye.netlify.app/",
-      target: "_self",
-    },
+    
   ];
 
   return (
