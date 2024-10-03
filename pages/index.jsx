@@ -15,7 +15,7 @@ import BooWhite from "@/public/boo-white.svg";
 import Link from "next/link";
 
 export default function Home() {
-  const { systemTheme, theme, setTheme } = useTheme();
+  const { systemTheme, theme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   useEffect(() => {
@@ -49,9 +49,9 @@ export default function Home() {
               height="80"
             />
             <div className="flex flex-col ml-4">
-              <h2 className="flex sm:text-2xl md:text-2xl lg:text-2xl">
+              <h2 className="flex sm:text-2xl md:text-2xl lg:text-2xl items-center">
                 <span className="font-semibold">Fahad Alam</span>
-                <span>
+                <span className="ml-2">
                   <Image
                     src={currentTheme === "dark" ? BooWhite : BooBlack}
                     alt="boo"
@@ -59,6 +59,14 @@ export default function Home() {
                     height="25"
                   />
                 </span>
+                {/* Add Resume Button Here */}
+                <a
+                  href="/fahadalamresume.pdf" // Replace with your actual resume file path
+                  download
+                  className="ml-4 px-4 py-2 bg-purple-600 text-white rounded-lg shadow hover:bg-purple-700 transition-all duration-300 text-sm sm:text-base"
+                >
+                  Resume
+                </a>
               </h2>
               <h3>
                 <Link
@@ -72,35 +80,32 @@ export default function Home() {
               </h3>
             </div>
           </div>
+
           <div className="mt-2 text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl p-2 border border-gray-200 rounded-lg shadow-md">
-  <p className="sm:leading-6 md:leading-6 lg:leading-8 mb-4">
-    A motivated web and app development student at SMIT with a strong foundation in front-end development. 
-    Experienced in crafting stunning and responsive designs using HTML, CSS, and JavaScript. 
-    Seeking an internship opportunity to gain practical experience and apply my skills in real-world projects.
-  </p>
+            <p className="sm:leading-6 md:leading-6 lg:leading-8 mb-4">
+              A motivated web and app development student at SMIT with a strong foundation in front-end development. Experienced in crafting stunning and responsive designs using HTML, CSS, and JavaScript. Seeking an internship opportunity to gain practical experience and apply my skills in real-world projects.
+            </p>
 
-  <h2 className="font-semibold text-lg md:text-xl mb-2">Technical Skills:</h2>
+            <h2 className="font-semibold text-lg md:text-xl mb-2">Technical Skills:</h2>
 
-  <h3 className="font-medium text-lg md:text-xl mb-1">Front-End Development:</h3>
-  <ul className="list-disc list-inside mb-4">
-    <li>Core Technologies: HTML/HTML5, CSS/CSS3, JavaScript (including DOM manipulation and ES6)</li>
-    <li>Frameworks & Libraries: React.js, Next.js, Tailwind CSS, Twitter Bootstrap, Material UI</li>
-    <li>React Ecosystem: Proficient in using React Router, Redux Toolkit, and other popular libraries</li>
-  </ul>
+            <h3 className="font-medium text-lg md:text-xl mb-1">Front-End Development:</h3>
+            <ul className="list-disc list-inside mb-4">
+              <li>Core Technologies: HTML/HTML5, CSS/CSS3, JavaScript (including DOM manipulation and ES6)</li>
+              <li>Frameworks & Libraries: React.js, Next.js, Tailwind CSS, Twitter Bootstrap, Material UI</li>
+              <li>React Ecosystem: Proficient in using React Router, Redux Toolkit, and other popular libraries</li>
+            </ul>
 
-  <h3 className="font-medium text-lg md:text-xl mb-1">Version Control:</h3>
-  <p className="mb-4">
-    Experienced in using Git, GitHub, Bitbucket, and GitLab for efficient collaboration and code management.
-  </p>
+            <h3 className="font-medium text-lg md:text-xl mb-1">Version Control:</h3>
+            <p className="mb-4">
+              Experienced in using Git, GitHub, Bitbucket, and GitLab for efficient collaboration and code management.
+            </p>
 
-  <h3 className="font-medium text-lg md:text-xl mb-1">Additional Tools:</h3>
-  <ul className="list-disc list-inside mb-4">
-    <li>Proficient in using Postman for API testing and development</li>
-    <li>Familiar with package managers such as NPM and YARN</li>
-  </ul>
-
-</div>
-
+            <h3 className="font-medium text-lg md:text-xl mb-1">Additional Tools:</h3>
+            <ul className="list-disc list-inside mb-4">
+              <li>Proficient in using Postman for API testing and development</li>
+              <li>Familiar with package managers such as NPM and YARN</li>
+            </ul>
+          </div>
         </div>
         <div className="mt-28 mx-auto">
           <Experience />
