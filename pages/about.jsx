@@ -29,7 +29,7 @@ export default function About() {
     <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
       <Head>
         <title>about ✦ Fahad</title>
-        <link rel="icon" href="/Avatar-white.svg" />
+        <link rel="icon" href="/hero.jpg" />
       </Head>
       <main className="  max-w-screen ">
         <div className=" mx-auto pt-16 -pb-10 max-w-7xl">

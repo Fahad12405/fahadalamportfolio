@@ -153,7 +153,7 @@ const tech = () => {
     <div className="min-h-[75vh] md:min-h-[73vh] px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 xl:px-80 mx-auto">
       <Head>
         <title>tech ✦ Fahad Alam</title>
-        <link rel="icon" href="/Avatar-white.svg" />
+        <link rel="icon" href="/hero.jpg" />
       </Head>
       <main className="max-w-screen max-w-5xl mx-auto">
         <div className="pt-24 flex flex-col mx-auto">

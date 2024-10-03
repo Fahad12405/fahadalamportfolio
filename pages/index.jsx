@@ -8,8 +8,8 @@ import Experience from "@/components/Experience";
 
 import { BsArrowUpRight } from "react-icons/bs";
 
-import Avatar_Black from "@/public/Avatar-black.svg";
-import Avatar_White from "@/public/Avatar-white.svg";
+import Hero from "@/public/hero.jpg";
+
 import BooBlack from "@/public/boo-black.svg";
 import BooWhite from "@/public/boo-white.svg";
 import Link from "next/link";
@@ -35,19 +35,21 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>Fahad ✦ developer</title>
-        <link rel="icon" href="/Avatar-white.svg" />
-      </Head>
-      <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
-        <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
-          <div className="flex flex-row justify-start items-center mt-20">
-            <Image
-              src={currentTheme === "dark" ? Avatar_White : Avatar_Black}
-              alt="Fahad Alam"
-              width="80"
-              height="80"
-            />
+     <Head>
+  <title>Fahad ✦ developer</title>
+  <link rel="icon" href="/hero.jpg" />
+</Head>
+<div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
+  <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
+    <div className="flex flex-row justify-start items-center mt-20">
+      <Image
+        src={currentTheme === "dark" ? Hero : Hero}
+        alt="Fahad Alam"
+        width="80"
+        height="80"
+        className="rounded-full border-2 border-gray-300" // Added class for round shape and border
+      />
+
             <div className="flex flex-col ml-4">
               <h2 className="flex sm:text-2xl md:text-2xl lg:text-2xl items-center">
                 <span className="font-semibold">Fahad Alam</span>
