@@ -61,7 +61,7 @@ export default function Home() {
                 </span>
                 {/* Add Resume Button Here */}
                 <a
-                  href="/Fahadalamresume.pdf" // Replace with your actual resume file path
+                  href="/public/Fahadalamresume.pdf" // Replace with your actual resume file path
                   download
                   className="ml-4 px-4 py-2 bg-purple-600 text-white rounded-lg shadow hover:bg-purple-700 transition-all duration-300 text-sm sm:text-base"
                 >
