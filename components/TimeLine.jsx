@@ -5,21 +5,21 @@ const TimeLine = () => {
     {
       id: 0,
       title: "Frontend Developer",
-      duration: "April 2024",
+      duration: "October 2024",
       org: "Vehware Software ",
       skills: ["Javascript", "React.js", "Next.js", "TypeScript", "Responsive Design"],
       class:
         "bg-red-100 text-red-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300",
     },
-    // {
-    //   id: 1,
-    //   title: "Frontend Developer",
-    //   duration: "April 2024 - September 2024",
-    //   org: "Nubit Software Pvt Ltd",
-    //   skills: ["HTML","CSS","JavaScript", "React.js", "Next.js", "Typescript"],
-    //   class:
-    //     "bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300",
-    // },
+    {
+      id: 1,
+      title: "Frontend Developer",
+      duration: "April 2024 - September 2024",
+      org: "Nubit Software Pvt Ltd",
+      skills: ["HTML","CSS","JavaScript", "React.js", "Next.js", "Typescript"],
+      class:
+        "bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300",
+    },
     {
       id: 2,
       title: " Internship ",
