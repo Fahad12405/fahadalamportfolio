@@ -4,12 +4,10 @@ import Link from "next/link";
 import Usptotrademarkrevive from "@/public/work/usptotrademarkrevive.png";
 import kamui from "@/public/work/kamui.jpg";
 import Glamishbeauty from "@/public/work/glamishbeauty.png";
-import Trademarkgov from "@/public/work/trademarkgov.PNG";
-import Globaltradingcars from "@/public/work/globaltradingcars.PNG";
-import redeye from "@/public/work/red-eye.jpg";
-import evo from "@/public/work/evo.jpg";
-import notion from "@/public/work/notion.jpg";
-import CRM from "@/public/work/crm.PNG";
+import Trademarkgov from "@/public/work/trademarkgov.png";
+import Globaltradingcars from "@/public/work/globaltradingcars.png";
+
+import CRM from "@/public/work/crm.jpg";
 
 const ProjectCard = () => {
   const data = [
