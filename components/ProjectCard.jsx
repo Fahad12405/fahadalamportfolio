@@ -1,26 +1,37 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import aizen from "@/public/work/aizen.jpg";
+import Usptotrademarkrevive from "@/public/work/usptotrademarkrevive.png";
 import kamui from "@/public/work/kamui.jpg";
-import pokedex from "@/public/work/pokedex.jpg";
-import portfolio from "@/public/work/portfolio.jpg";
-import cryptohunter from "@/public/work/crypto-hunter.jpg";
+import Glamishbeauty from "@/public/work/glamishbeauty.png";
+import Trademarkgov from "@/public/work/trademarkgov.PNG";
+import Globaltradingcars from "@/public/work/globaltradingcars.PNG";
 import redeye from "@/public/work/red-eye.jpg";
 import evo from "@/public/work/evo.jpg";
 import notion from "@/public/work/notion.jpg";
-import nike from "@/public/work/nike.jpg";
+import CRM from "@/public/work/crm.PNG";
 
 const ProjectCard = () => {
   const data = [
+
+
     {
-      id: 1,
-      image: aizen,
-      title: "Tourism Website",
-      description: "A tourism website that inspires and guides travelers with destination highlights, attractions, and easy booking options for unforgettable journeys.",
-      link: "https://moroccotour.vercel.app/",
+      id: 3,
+      image: Glamishbeauty,
+      title: "E-commerce",
+      description: "An e-commerce website is a digital platform that allows users to browse, compare, and purchase a wide range of products or services online. It typically features an intuitive interface with categories and filters to help customersn",
+      link: "https://glamish-beauty.vercel.app/",
       target: "_self",
     },
+    {
+      id: 1,
+      image: Usptotrademarkrevive, // Replace 'trademarkImage' with your actual image import
+      title: "Trademark Registration",
+      description: "A professional trademark registration website that helps businesses protect their brand identity with fast, affordable, and simplified trademark filing services across the U.S.",
+      link: "https://usptotrademarkrevive.com/",
+      target: "_self",
+    },
+
     {
       id: 2,
       image: kamui,
@@ -30,47 +41,43 @@ const ProjectCard = () => {
       link: "https://fahad12405.github.io/Real-State-website/",
       target: "_self",
     },
-    {
-      id: 3,
-      image: pokedex,
-      title: "E-commerce",
-      description: "An e-commerce website is a digital platform that allows users to browse, compare, and purchase a wide range of products or services online. It typically features an intuitive interface with categories and filters to help customersn",
-      link: "https://el-clasico.vercel.app/",
-      target: "_self",
-    },
+
     {
       id: 4,
-      image: evo,
-      title: "Foodpanda Clone",
-      description: "A Foodpanda clone is an online food delivery platform that allows users to browse local restaurants, view menus, and place orders for home delivery or pickup. The clone provides a user-friendly interface",
-      link: "https://fahad12405.github.io/Foodpanda-Clone/",
-      target: "_blank",
-    },
-    {
-      id: 5,
-      image: nike,
-      title: "Github Finder",
-      description: "A GitHub Finder Profile is a web application that allows users to search for GitHub profiles by username, displaying detailed information about repositories, followers, following, and contributions.",
-      link: "https://fahad12405.github.io/Git-Finder/",
-      target: "_blank",
-    },
-    {
-      id: 6,
-      image: notion,
-      title: "Certification Portal",
-      description: "A certification portal is an online platform where users can browse, enroll in, and manage various professional certification programs. It provides detailed course descriptions, eligibility criteria, and certification pathways across different fields.",
-      link: "https://smitcertificate.vercel.app/",
+      image: Trademarkgov, // Replace with your actual image import
+      title: "Trademark USA",
+      description: "A smart trademark monitoring platform that alerts you of similar or conflicting trademark filings, helping you protect your brand identity and take timely action against infringement.",
+      link: "https://trademark-five.vercel.app/", // update with actual link if needed
       target: "_blank",
     },
     
+    {
+      id: 5,
+      image: Globaltradingcars, // Replace with your actual image import
+      title: "Japan Car Export",
+      description: "A Japan-based car export website offering a wide range of high-quality used vehicles. Browse top Japanese brands, view detailed specs, and get hassle-free international shipping at competitive rates.",
+      link: "https://globaltradingcars.vercel.app/", // Update link if needed
+      target: "_self",
+    },
+    
+    {
+      id: 6,
+      image: CRM, // Replace with your actual image import
+      title: "CRM Dashboard",
+      description: "A powerful CRM dashboard that streamlines client interactions, lead management, and sales tracking. Designed with real-time analytics and an intuitive UI to help businesses build strong customer relationships.",
+      link: "https://vehwarecrm.vercel.app/", // Update if actual CRM demo link is different
+      target: "_blank",
+    },
+    
+
   ];
 
   return (
-    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
+    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-16">
       {data.map((project) => {
         return (
           <div
-            className="rounded-lg mb-12 flex flex-col items-center"
+            className="rounded-lg mb-12 flex flex-col items-center  p-4  w-[280px] mx-auto"
             key={project.id}
           >
             <Link
@@ -80,25 +87,27 @@ const ProjectCard = () => {
                 project.title === "Portfolio"
                   ? alert("You are already on this site! 🤩")
                   : project.title === "Pokedex"
-                  ? alert(
-                      "Ash Ketchum asked you to open in desktop browser.. 🚀"
-                    )
-                  : "";
+                    ? alert("Ash Ketchum asked you to open in desktop browser.. 🚀")
+                    : "";
               }}
             >
-              <Image
-                loading="lazy"
-                src={project.image}
-                alt={project.title}
-                width="200"
-                className="rounded-lg drop-shadow-2xl hover:scale-110"
-              />
+              <div className="w-full h-[180px] overflow-hidden rounded-lg">
+                <Image
+                  loading="lazy"
+                  src={project.image}
+                  alt={project.title}
+                  width={260}
+                  height={180}
+                  className="object-cover w-full h-full transition-transform duration-300 hover:scale-110 rounded-lg"
+                />
+              </div>
             </Link>
-            <div className="flex flex-col items-center">
-              <h1 className="font-semibold text-[1.5rem] mt-3 text-gray-700 dark:text-white">
+
+            <div className="flex flex-col items-center mt-4">
+              <h1 className="font-semibold text-[1.5rem] text-gray-700 dark:text-white text-center">
                 {project.title}
               </h1>
-              <p className="max-w-[90%] text-gray-400 font-light text-center text-sm">
+              <p className="text-gray-400 font-light text-center text-sm max-w-[90%] mt-2">
                 {project.description}
               </p>
             </div>
@@ -107,6 +116,7 @@ const ProjectCard = () => {
       })}
     </div>
   );
+
 };
 
 export default ProjectCard;
