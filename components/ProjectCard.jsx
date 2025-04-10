@@ -4,8 +4,8 @@ import Link from "next/link";
 import Usptotrademarkrevive from "@/public/work/usptotrademarkrevive.png";
 import kamui from "@/public/work/kamui.jpg";
 import Glamishbeauty from "@/public/work/glamishbeauty.png";
-import Trademarkgov from "@/public/work/trademarkgov.png";
-import Globaltradingcars from "@/public/work/globaltradingcars.png";
+import Trademarkgov from "@/public/work/trademarkgov.jpg";
+import Globaltradingcars from "@/public/work/globaltradingcars.jpg";
 
 import CRM from "@/public/work/crm.jpg";
 
