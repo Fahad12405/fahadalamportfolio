@@ -10,7 +10,7 @@ import Globaltradingcars from "@/public/work/globaltradingcars.jpg";
 import CRM from "@/public/work/crm.jpg";
 
 const ProjectCard = () => {
-  const data = [a
+  const data = [
 
 
     {
