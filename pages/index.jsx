@@ -35,10 +35,45 @@ export default function Home() {
 
   return (
     <>
-     <Head>
-  <title>Fahad ✦ developer</title>
+    <Head>
+  <title>Fahad Alam | Frontend Developer & Web Developer</title>
+  <meta
+    name="description"
+    content="Portfolio of Fahad Alam, a frontend developer skilled in React, Next.js, Tailwind CSS, and modern web technologies. Seeking internship and collaboration opportunities."
+  />
+  <meta
+    name="keywords"
+    content="Fahad Alam, Frontend Developer, React Developer, Next.js, Tailwind CSS, Web Developer Portfolio, SMIT Developer, Internship"
+  />
+  <meta name="author" content="Fahad Alam" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {/* Open Graph (OG) Tags */}
+  <meta property="og:title" content="Fahad Alam | Frontend Developer Portfolio" />
+  <meta
+    property="og:description"
+    content="Explore the projects and skills of Fahad Alam, a passionate frontend developer from SMIT."
+  />
+  <meta property="og:image" content="/hero.jpg" />
+  <meta property="og:url" content="https://fahadalam.vercel.app" />  {/* Replace with your real portfolio domain */}
+  <meta property="og:type" content="website" />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fahad Alam | Frontend Developer Portfolio" />
+  <meta
+    name="twitter:description"
+    content="Check out Fahad Alam's web development portfolio showcasing projects in React, Next.js, and more."
+  />
+  <meta name="twitter:image" content="/hero.jpg" />
+
+  {/* Favicon */}
   <link rel="icon" href="/hero.jpg" />
+
+  {/* Canonical URL */}
+  <link rel="canonical" href="https://fahadalam.vercel.app" /> {/* Replace with your actual domain */}
 </Head>
+
 <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
   <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
     <div className="flex flex-row justify-start items-center mt-20">
