@@ -38,43 +38,50 @@ export default function Home() {
   return (
     <>
     <Head>
-  <title>Fahad Alam | Software Developer & AI Automation Expert</title>
-  <meta
-    name="description"
-    content="Portfolio of Fahad Alam, a Software Developer and AI Automation Expert skilled in Python, React, Next.js, and Backend technologies. specializing in building intelligent automated systems."
-  />
-  <meta
-    name="keywords"
-    content="Fahad Alam, Software Developer, AI Automation, Python Developer, Full Stack Developer, React Developer, Next.js, AI Agents"
-  />
-  <meta name="author" content="Fahad Alam" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Fahad Alam | Software Developer & AI Expert</title>
+      <meta name="description" content="Professional portfolio of Fahad Alam, a Software Developer and AI Expert specializing in React, Next.js, and intelligent automation solutions. Explore my projects and technical expertise." />
+      <meta name="keywords" content="Fahad Alam, Software Developer, AI Expert, React Developer, Next.js, Full Stack Developer, AI Automation, Web Development, Portfolio" />
+      <meta name="author" content="Fahad Alam" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="robots" content="index, follow" />
+      
+      {/* Site Verification - Replace content with your actual code */}
+      <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
+      
+      {/* Open Graph / Facebook */}
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://fahadalam.vercel.app/" />
+      <meta property="og:title" content="Fahad Alam | Software Developer & AI Expert" />
+      <meta property="og:description" content="Building intelligent, high-performance web applications and AI-driven solutions." />
+      <meta property="og:image" content="https://fahadalam.vercel.app/hero.jpg" />
 
-  {/* Open Graph (OG) Tags */}
-  <meta property="og:title" content="Fahad Alam | Software Developer & AI Automation Expert" />
-  <meta
-    property="og:description"
-    content="Explore the projects and skills of Fahad Alam, a Software Developer specializing in AI Automation and Full-stack development."
-  />
-  <meta property="og:image" content="/hero.jpg" />
-  <meta property="og:url" content="https://fahadalam.vercel.app" />
-  <meta property="og:type" content="website" />
+      {/* Twitter */}
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://fahadalam.vercel.app/" />
+      <meta property="twitter:title" content="Fahad Alam | Software Developer & AI Expert" />
+      <meta property="twitter:description" content="Building intelligent, high-performance web applications and AI-driven solutions." />
+      <meta property="twitter:image" content="https://fahadalam.vercel.app/hero.jpg" />
 
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Fahad Alam | Software Developer & AI Automation Expert" />
-  <meta
-    name="twitter:description"
-    content="Check out Fahad Alam's portfolio showcasing AI automation, Python, and Full-stack web development projects."
-  />
-  <meta name="twitter:image" content="/hero.jpg" />
+      <link rel="canonical" href="https://fahadalam.vercel.app/" />
+      <link rel="icon" href="/hero.jpg" />
 
-  {/* Favicon */}
-  <link rel="icon" href="/hero.jpg" />
-
-  {/* Canonical URL */}
-  <link rel="canonical" href="https://fahadalam.vercel.app" />
-</Head>
+      {/* Structured Data (JSON-LD) for SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Fahad Alam",
+          "url": "https://fahadalam.vercel.app/",
+          "jobTitle": "Software Developer & AI Expert",
+          "alumniOf": "Saylani Mass IT Training",
+          "knowsAbout": ["React.js", "Next.js", "AI Automation", "Web Development", "Node.js", "Python"],
+          "sameAs": [
+            "https://www.linkedin.com/in/fahad-alam-3b683a2a2/",
+            "https://github.com/fahad12405"
+          ]
+        })}
+      </script>
+    </Head>
 
 <div className="lg:min-h-screen px-6 sm:px-12 md:px-20 lg:px-32 mx-auto max-w-[80rem]">
   <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
