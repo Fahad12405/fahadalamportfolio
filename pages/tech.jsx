@@ -113,13 +113,31 @@ const tech = () => {
       text: "text-gray-100",
     },
     {
-      title: "Framer Motion",
+      title: "Python",
       id: 11,
-      main: "/icons/framer-motion.png",
-      desc: "Framer Motion does not directly handle PNG files or images in its animations. Framer Motion is primarily used for creating animations and transitions for components in React applications.",
-      tag: "Animation",
-      bg: "bg-orange-500",
-      text: "text-orange-100",
+      main: "/icons/python-original.svg",
+      desc: "An interpreted, high-level and general-purpose programming language. Used for backend development and AI Automation.",
+      tag: "backend",
+      bg: "bg-blue-100",
+      text: "text-blue-700",
+    },
+    {
+      title: "OpenAI",
+      id: 12,
+      main: "/icons/openai.png",
+      desc: "Leveraging Large Language Models (LLMs) like GPT-4 to build intelligent applications and autonomous agents.",
+      tag: "AI",
+      bg: "bg-green-100",
+      text: "text-green-700",
+    },
+    {
+      title: "LangChain",
+      id: 13,
+      main: "/icons/langchain.png",
+      desc: "A framework for developing applications powered by language models, enabling advanced AI automation workflows.",
+      tag: "AI",
+      bg: "bg-indigo-100",
+      text: "text-indigo-700",
     },
   ];
   const [idNumber, setIdNumber] = useState(0);
@@ -150,7 +168,7 @@ const tech = () => {
   }, []);
 
   return (
-    <div className="min-h-[75vh] md:min-h-[73vh] px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 xl:px-80 mx-auto">
+    <div className="min-h-[75vh] md:min-h-[73vh] px-6 sm:px-12 md:px-20 lg:px-32 mx-auto max-w-[80rem]">
       <Head>
         <title>tech ✦ Fahad Alam</title>
         <link rel="icon" href="/hero.jpg" />

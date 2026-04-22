@@ -2,47 +2,79 @@ import React from "react";
 
 const TimeLine = () => {
   const data = [
+   
+    {
+      id: 4,
+      title: "Co-founder & Software Engineer",
+      duration: "September 2025 - Present",
+      org: "Codexilo",
+      skills: [
+        "Software Development",
+        "IT Solutions",
+        "Business Strategy",
+        "Team Leadership",
+        "Full-Stack Architecture",
+        "Project Management",
+      ],
+      class:
+        "bg-blue-100 text-blue-800 text-sm font-medium me-2 px-3 py-1 rounded dark:bg-blue-900 dark:text-blue-300",
+    },
+    {
+      id: 2,
+      title: "Software Developer",
+      duration: "September 2025 - Present",
+      org: "Sysartx Pvt Ltd",
+      skills: [
+        "React.js",
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "AI Automation",
+        "OpenAI API",
+        "LangChain",
+        "Firebase",
+        "TypeScript",
+        "PostgreSQL",
+      ],
+      class:
+        "bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-3 py-1 rounded dark:bg-yellow-900 dark:text-yellow-300",
+    },
+    {
+      id: 5,
+      title: "Freelance Software Developer",
+      duration: "January 2024 - Present",
+      org: "Remote / Startups",
+      skills: [
+        "Python Automation",
+        "Custom AI Agents",
+        "Web Scraping",
+        "Full-Stack Web Apps",
+        "API Integration",
+        "Selenium/Playwright",
+        "Cloud Deployment",
+      ],
+      class:
+        "bg-green-100 text-green-800 text-sm font-medium me-2 px-3 py-1 rounded dark:bg-green-900 dark:text-green-300",
+    },
     {
       id: 0,
       title: "Frontend Developer",
-      duration: "April 2024 (1 Year +)",
+      duration: "April 2024 - August 2025",
       org: "Vehware Software",
       skills: [
         "JavaScript",
         "React.js",
         "Next.js",
         "TypeScript",
-        "HTML5",
-        "CSS3",
         "Tailwind CSS",
         "SCSS/SASS",
-        "Responsive Design",
         "Framer Motion",
         "Redux Toolkit",
         "Material UI",
-      ],
-      class:
-        "bg-red-100 text-red-800 text-sm font-medium me-2 px-3 py-1 rounded dark:bg-red-900 dark:text-red-300",
-    },
-    {
-      id: 2,
-      title: "Internship",
-      duration: "November 2023 - January 2024",
-      org: "SMIT",
-      skills: [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "React.js",
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "Firebase",
-        "GitHub",
         "Responsive Design",
       ],
       class:
-        "bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-3 py-1 rounded dark:bg-yellow-900 dark:text-yellow-300",
+        "bg-red-100 text-red-800 text-sm font-medium me-2 px-3 py-1 rounded dark:bg-red-900 dark:text-red-300",
     },
     {
       id: 3,
@@ -50,16 +82,14 @@ const TimeLine = () => {
       duration: "March 2023 - January 2024",
       org: "Saylani Mass IT Training (SMIT)",
       skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React.js",
-        "Next.js",
         "MongoDB",
         "Express.js",
+        "React.js",
         "Node.js",
-        "Firebase",
-        "MUI",
+        "HTML5/CSS3",
+        "JavaScript ES6+",
+        "Firebase Auth",
+        "REST APIs",
       ],
       class:
         "bg-pink-100 text-pink-800 text-sm font-medium me-2 px-3 py-1 rounded dark:bg-pink-900 dark:text-pink-300",
@@ -85,7 +115,7 @@ const TimeLine = () => {
             </span>
             <h3 className="flex items-center mb-2 text-xl font-semibold text-gray-900 dark:text-white">
               {item.title}
-              {item.id === 0 && (
+              {item.duration.includes("Present") && (
                 <span className="bg-blue-600 text-white text-sm font-medium px-3 py-0.5 rounded ms-3">
                   Latest
                 </span>

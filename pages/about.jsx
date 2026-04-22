@@ -26,7 +26,7 @@ export default function About() {
   }, []);
 
   return (
-    <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
+    <div className="px-6 sm:px-12 md:px-20 lg:px-32 mx-auto max-w-[80rem]">
       <Head>
         <title>about ✦ Fahad</title>
         <link rel="icon" href="/hero.jpg" />
@@ -77,8 +77,7 @@ export default function About() {
           <CategoryCard />
           <div className=" text-[0.92rem] text-base mx-12 font-light dark:text-white text-gray-900">
             <p className="mt-6 mb-12 font-normal">
-              Front-end Engineer who develops modern, reactive, and
-              user-friendly web applications using the latest technologies.{" "}
+              Software Developer and AI Expert who develops modern, intelligent, and user-friendly applications using the latest technologies.{" "}
               <span className="inline-flex items-baseline">
                 <Image
                   src={Rocket}
@@ -86,9 +85,7 @@ export default function About() {
                   className="self-center w-5 h-5 mx-1"
                 />
               </span>{" "}
-              Believe a perfect blend of UI architecture is one, where the goals
-              and needs are accounted for in an elegant, efficient, and robust
-              design of the user interface{" "}
+              I specialize in integrating AI into web platforms, creating seamless experiences that leverage the power of Artificial Intelligence to solve complex goals and needs.{" "}
               <span className="inline-flex items-baseline">
                 <Image
                   src={Sparkles}
@@ -96,11 +93,7 @@ export default function About() {
                   className="self-center w-5 h-5 mx-1"
                 />
               </span>{" "}
-              Experience in React.js, Next.js, and state management like
-              Redux.js with proficiency in web technologies like JavaScript,
-              Typescript, Tailwind CSS and SASS. building large-scale web
-              applications, cross-browser platforms, and design constraints on
-              the web, and building responsive user interfaces.{" "}
+              With expertise in React.js, Next.js, and AI technologies, I focus on building elegant, efficient, and robust software solutions.{" "}
               <span className="inline-flex items-baseline">
                 <Image
                   src={Flash}

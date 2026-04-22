@@ -40,11 +40,7 @@ const Experience = () => {
       </div>
       <div className="w-[80%] mx-auto">
         <div className="text-center max-w-2xl mx-auto tracking-normal leading-5 text-base sm:text-[1.1rem] lg:text-lg">
-          During these years of Frontend Development Experience, I have
-          developed a strong problem-solving and critical thinking skills, and
-          am able to quickly adapt to new technologies and methods of working.
-          Given are some skill-set that I have learned and am still actively
-          learning as days goes by
+          As a Software Developer and AI Expert, I have developed strong problem-solving skills and the ability to build intelligent, high-performance applications. I specialize in integrating AI features into modern web platforms.
         </div>
         <div className="flex justify-center select-none space-x-8 items-center  my-4">
           <svg
@@ -71,13 +67,10 @@ const Experience = () => {
       <div className="flex flex-col relative space-y-16 md:space-y-10 lg:space-y-8 items-center">
         <div className="drop-shadow-2xl flex flex-col space-y-4 mx-6 md:mx-20 lg:mx-0 md:w-[70%] lg:w-[80%] max-w-2xl">
           <div className="mx-auto text-center font-bold font-deca text-2xl text-indigo-500 dark:text-[#4cc9f0]">
-            Development
+            Software & AI
           </div>
           <div className="font-normal sm:text-[0.95rem] md:text-base text-center">
-            With a focus on React.js and Next.js centered tools, specialize in
-            crafting visually captivating and intuitively navigable websites.
-            Infusing each project with a touch of personality is my signature
-            touch.
+            Specializing in React, Next.js, and AI-driven solutions. I focus on crafting intelligent applications that combine elegant UI with powerful automation and AI capabilities.
           </div>
         </div>
        

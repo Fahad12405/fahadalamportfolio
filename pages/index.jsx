@@ -5,6 +5,8 @@ import Image from "next/image";
 
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
+import Services from "@/components/Services";
+import ProjectCard from "@/components/ProjectCard";
 
 import { BsArrowUpRight } from "react-icons/bs";
 
@@ -36,34 +38,34 @@ export default function Home() {
   return (
     <>
     <Head>
-  <title>Fahad Alam | Frontend Developer & Web Developer</title>
+  <title>Fahad Alam | Software Developer & AI Automation Expert</title>
   <meta
     name="description"
-    content="Portfolio of Fahad Alam, a frontend developer skilled in React, Next.js, Tailwind CSS, and modern web technologies. Seeking internship and collaboration opportunities."
+    content="Portfolio of Fahad Alam, a Software Developer and AI Automation Expert skilled in Python, React, Next.js, and Backend technologies. specializing in building intelligent automated systems."
   />
   <meta
     name="keywords"
-    content="Fahad Alam, Frontend Developer, React Developer, Next.js, Tailwind CSS, Web Developer Portfolio, SMIT Developer, Internship"
+    content="Fahad Alam, Software Developer, AI Automation, Python Developer, Full Stack Developer, React Developer, Next.js, AI Agents"
   />
   <meta name="author" content="Fahad Alam" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   {/* Open Graph (OG) Tags */}
-  <meta property="og:title" content="Fahad Alam | Frontend Developer Portfolio" />
+  <meta property="og:title" content="Fahad Alam | Software Developer & AI Automation Expert" />
   <meta
     property="og:description"
-    content="Explore the projects and skills of Fahad Alam, a passionate frontend developer from SMIT."
+    content="Explore the projects and skills of Fahad Alam, a Software Developer specializing in AI Automation and Full-stack development."
   />
   <meta property="og:image" content="/hero.jpg" />
-  <meta property="og:url" content="https://fahadalam.vercel.app" />  {/* Replace with your real portfolio domain */}
+  <meta property="og:url" content="https://fahadalam.vercel.app" />
   <meta property="og:type" content="website" />
 
   {/* Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Fahad Alam | Frontend Developer Portfolio" />
+  <meta name="twitter:title" content="Fahad Alam | Software Developer & AI Automation Expert" />
   <meta
     name="twitter:description"
-    content="Check out Fahad Alam's web development portfolio showcasing projects in React, Next.js, and more."
+    content="Check out Fahad Alam's portfolio showcasing AI automation, Python, and Full-stack web development projects."
   />
   <meta name="twitter:image" content="/hero.jpg" />
 
@@ -71,18 +73,18 @@ export default function Home() {
   <link rel="icon" href="/hero.jpg" />
 
   {/* Canonical URL */}
-  <link rel="canonical" href="https://fahadalam.vercel.app" /> {/* Replace with your actual domain */}
+  <link rel="canonical" href="https://fahadalam.vercel.app" />
 </Head>
 
-<div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
+<div className="lg:min-h-screen px-6 sm:px-12 md:px-20 lg:px-32 mx-auto max-w-[80rem]">
   <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
-    <div className="flex flex-row justify-start items-center mt-20">
+    <div className="flex flex-col sm:flex-row justify-center items-center mt-20 gap-6">
       <Image
         src={currentTheme === "dark" ? Hero : Hero}
         alt="Fahad Alam"
-        width="80"
-        height="80"
-        className="rounded-full border-2 border-gray-300" // Added class for round shape and border
+        width="100"
+        height="100"
+        className="rounded-full border-2 border-gray-300 shadow-md" 
       />
 
             <div className="flex flex-col ml-4">
@@ -96,9 +98,8 @@ export default function Home() {
                     height="25"
                   />
                 </span>
-                {/* Add Resume Button Here */}
                 <a
-                  href="/Fahadalamresume.pdf" // Replace with your actual resume file path
+                  href="/Fahadalamresume.pdf" 
                   download
                   className="ml-4 px-4 py-2 bg-purple-600 text-white rounded-lg shadow hover:bg-purple-700 transition-all duration-300 text-sm sm:text-base"
                 >
@@ -118,32 +119,46 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-2 text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl p-2 border border-gray-200 rounded-lg shadow-md">
+          <div className="mt-6 text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl p-6 md:p-8 border border-gray-200 rounded-xl shadow-md">
             <p className="sm:leading-6 md:leading-6 lg:leading-8 mb-4">
-              A motivated web and app development student at SMIT with a strong foundation in front-end development. Experienced in crafting stunning and responsive designs using HTML, CSS, and JavaScript. Seeking an internship opportunity to gain practical experience and apply my skills in real-world projects.
+              I am a Software Developer and AI Expert with a strong foundation in both frontend and backend development. I specialize in building intelligent, responsive applications using React, Next.js, and advanced AI technologies to solve complex problems.
             </p>
 
             <h2 className="font-semibold text-lg md:text-xl mb-2">Technical Skills:</h2>
 
-            <h3 className="font-medium text-lg md:text-xl mb-1">Front-End Development:</h3>
+            <h3 className="font-medium text-lg md:text-xl mb-1">Development:</h3>
             <ul className="list-disc list-inside mb-4">
-              <li>Core Technologies: HTML/HTML5, CSS/CSS3, JavaScript (including DOM manipulation and ES6)</li>
-              <li>Frameworks & Libraries: React.js, Next.js, Tailwind CSS, Twitter Bootstrap, Material UI</li>
-              <li>React Ecosystem: Proficient in using React Router, Redux Toolkit, and other popular libraries</li>
+              <li>Core Technologies: React.js, Next.js, Node.js, JavaScript, TypeScript</li>
+              <li>Styling: Tailwind CSS, Material UI, Framer Motion</li>
+              <li>AI & Automation: LangChain, OpenAI API, Intelligent Agents, Workflow Automation</li>
             </ul>
 
-            <h3 className="font-medium text-lg md:text-xl mb-1">Version Control:</h3>
+            <h3 className="font-medium text-lg md:text-xl mb-1">Version Control & Tools:</h3>
             <p className="mb-4">
-              Experienced in using Git, GitHub, Bitbucket, and GitLab for efficient collaboration and code management.
+              Experienced in using Git, GitHub, and modern dev tools like Postman for efficient collaboration and software management.
             </p>
-
-            <h3 className="font-medium text-lg md:text-xl mb-1">Additional Tools:</h3>
-            <ul className="list-disc list-inside mb-4">
-              <li>Proficient in using Postman for API testing and development</li>
-              <li>Familiar with package managers such as NPM and YARN</li>
-            </ul>
           </div>
         </div>
+        <div className="mt-28 mx-auto">
+          <Services />
+        </div>
+
+        <div className="mt-28 mx-auto">
+          <div className="flex justify-between items-center mb-10 px-2">
+            <h2 className="text-2xl md:text-3xl font-bold text-zinc-800 dark:text-zinc-100">
+              Featured Projects
+            </h2>
+            <Link 
+              href="/work" 
+              className="group flex items-center gap-2 text-blue-600 dark:text-blue-400 font-semibold hover:underline underline-offset-4 transition-all"
+            >
+              View All 
+              <BsArrowUpRight className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
+            </Link>
+          </div>
+          <ProjectCard limit={6} />
+        </div>
+
         <div className="mt-28 mx-auto">
           <Experience />
         </div>

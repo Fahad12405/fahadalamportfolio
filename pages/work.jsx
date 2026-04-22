@@ -14,7 +14,7 @@ export default function Wok() {
   }, []);
 
   return (
-    <div className="px-10 sm:px-20 md:px-32 md:-mb-52 lg:mb-0 lg:px-60 mx-auto max-w-[75rem]">
+    <div className="px-6 sm:px-12 md:px-20 lg:px-32 mx-auto max-w-[80rem]">
       <Head>
         <title>work ✦ Fahad Alam</title>
         <link rel="icon" href="/hero.jpg" />
